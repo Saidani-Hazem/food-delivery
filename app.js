@@ -1,7 +1,7 @@
 const express = require("express")
 const { default: mongoose } = require("mongoose")
 app = express()
-
+//aaaaaaaaaaa
 require("dotenv").config()
 app.listen(process.env.PORT , () => console.log(`Working on port ${process.env.PORT}`))
 
